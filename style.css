@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,700;1,100;1,200;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    width: 100%;
+    height:84px;
+    background-color: #272735;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+h1{
+    color: dodgerblue;
+    font-size: 36px;
+    font-weight: bold;
+}
+nav{
+    display: flex;
+}
+nav li{
+    padding: 20px 5px;
+    color: #1E90FF;
+    font-size: 24px;
+    font-weight: bold;
+    list-style: none;
+}
+
+.mobile-imagem{
+    display: none;
+}
+
+.chama{
+    width: 50px;
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+    position: fixed;
+    cursor: pointer;
+
+}
+
+main{
+    width: 100%;
+    height: 150vh;
+    position: absolute;
+    background-image: url("imagem/domenico-loia-EhTcC9sYXsw-unsplash\ \(1\).jpg");
+}
+
+.apresentacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.container-planos{
+    margin-top: 100px;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.item{
+    width: 200px;
+    height: 250px;
+    border: solid dodgerblue 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5px;
+    background-color: rgba(197, 202, 207, 0.425);
+}
+
+.assinar{
+    padding: 10px 20px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: none;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+}
+.beneficios{
+    margin-top: 100px;
+    height:350px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.747);
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+.beneficios-item{
+    display: flex;
+    margin-left: 100px;
+}
+
+.items-beneficios{
+    display: flex;
+    flex-direction: column;
+   justify-content: flex-start;
+   gap: 20px;
+}
+.mobile{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    transition: 1s;
+}
+.mobile>li{
+    transition: 1s;
+}
+.mobile >li:hover{
+    background-color: rgb(175, 208, 240);
+    color:black;
+}
+
+.duvidas{
+    height: 50vh;
+    width: 100%;
+}
+
+.faq{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq>ul>li{
+    padding: 5px;
+    font-size: 18px;
+}
+
+.resposta{
+    display: none;
+}
+
+.display{
+    display: block;
+}
+
+footer{
+    width: 100%;
+    height: 137px;
+    background-color: #272735;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer>h2{
+    color: white;
+}
+
+
+.display{
+    display: block;
+    transform: translateX(40%);
+}
+
+
+
+
+
+
+@media (max-width:720px){
+
+    .menu{
+        display: none;
+    }
+
+    .mobile-imagem{
+        display: block;
+    }
+
+}

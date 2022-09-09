@@ -176,7 +176,6 @@ footer>h2{
 
 .display{
     display: block;
-    transform: translateX(40%);
 }
 
 
@@ -192,6 +191,12 @@ footer>h2{
 
     .mobile-imagem{
         display: block;
+    }
+
+    .mobile{
+        text-align: center;
+        background-color: #272735;
+        transition: 1s;
     }
 
 }

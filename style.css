@@ -210,5 +210,9 @@ footer>h2{
         background-color: #272735;
         transition: 1s;
     }
+    .chama{
+        right: 20px;
+        bottom: 30px;
+    }
 
 }

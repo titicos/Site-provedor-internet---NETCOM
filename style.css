@@ -9,7 +9,7 @@
 
 header{
     width: 100%;
-    height:84px;
+    height:90px;
     background-color: #272735;
     display: flex;
     align-items: center;
@@ -28,17 +28,29 @@ nav{
     display: flex;
 }
 nav li{
-    padding: 20px 5px;
-    color: #1E90FF;
+    padding:10px 20px;
+    color: white;
     font-size: 24px;
     font-weight: bold;
     list-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+nav li:hover{
+    background-color: dodgerblue;
+    transition: 1s;
 }
 
 .mobile-imagem{
     display: none;
 }
 
+.imagem-logo{
+    width: 60px;
+    height: 60px;
+}
 .chama{
     width: 50px;
     position: absolute;
@@ -127,10 +139,10 @@ h1{
     transition: 1s;
 }
 .mobile>li{
-    transition: 1s;
+ 
 }
 .mobile >li:hover{
-    background-color: rgb(175, 208, 240);
+    background-color: rgb(245, 248, 250);
     color:black;
 }
 

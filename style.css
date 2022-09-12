@@ -137,7 +137,7 @@ main{
 }
 .beneficios{
     margin-top: 100px;
-    height:350px;
+    margin-bottom: 50px;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.747);
 }
@@ -178,9 +178,7 @@ main{
     display: none;
     transition: 1s;
 }
-.mobile>li{
- 
-}
+
 .mobile >li:hover{
     background-color: rgb(245, 248, 250);
     color:black;
@@ -201,10 +199,15 @@ main{
     justify-content: center;
 }
 
-.faq>ul>li{
+ul>li{
     padding: 20px 0px;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
+}
+
+li{
+font-size: 24px;
+padding: 10px;
 }
 
 .resposta{

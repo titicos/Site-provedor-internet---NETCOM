@@ -187,8 +187,11 @@ main{
 }
 
 .duvidas{
-    height: 50vh;
     width: 100%;
+}
+.container-faq{
+
+    display: flex;
 }
 
 .faq{
@@ -199,8 +202,9 @@ main{
 }
 
 .faq>ul>li{
-    padding: 5px;
-    font-size: 18px;
+    padding: 20px 0px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .resposta{
@@ -229,6 +233,7 @@ footer>h2{
 .display{
     display: block;
 }
+
 
 
 

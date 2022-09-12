@@ -157,12 +157,15 @@ main{
 }
 .beneficios-item{
     display: flex;
+    align-items: center;
 }
 
 .items-beneficios{
-   
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
     gap: 20px;
     height: 100%;
 }
